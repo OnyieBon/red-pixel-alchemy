@@ -1,4 +1,3 @@
-
 import { Github, Linkedin, Twitter, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -8,7 +7,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">DESIGN<span className="text-primary">STUDIO</span></h3>
+            <h3 className="text-xl font-bold mb-4">B.<span className="text-primary">ONYANGO</span></h3>
             <p className="text-gray-300 mb-4">
               Creating beautiful, functional web experiences that captivate audiences and drive results.
             </p>
@@ -57,16 +56,14 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <address className="not-italic text-gray-300">
-              <p className="mb-2">123 Design Street</p>
-              <p className="mb-2">Creative City, CD 12345</p>
-              <p className="mb-2">contact@designstudio.com</p>
-              <p>(123) 456-7890</p>
+              <p className="mb-2">Nairobi, Kenya</p>
+              <p className="mb-2">onyangobony@gmail.com</p>
             </address>
           </div>
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} DesignStudio. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} B.Onyango Portfolio. All rights reserved.</p>
         </div>
       </div>
     </footer>

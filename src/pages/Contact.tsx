@@ -1,8 +1,7 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -35,21 +34,11 @@ const Contact = () => {
                 <div className="space-y-6">
                   <div className="flex items-start">
                     <div className="bg-primary/10 p-3 rounded-full mr-4">
-                      <Phone size={24} className="text-primary" />
-                    </div>
-                    <div>
-                      <h3 className="font-medium text-secondary mb-1">Phone</h3>
-                      <p className="text-gray-600">(123) 456-7890</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start">
-                    <div className="bg-primary/10 p-3 rounded-full mr-4">
                       <Mail size={24} className="text-primary" />
                     </div>
                     <div>
                       <h3 className="font-medium text-secondary mb-1">Email</h3>
-                      <p className="text-gray-600">hello@designstudio.com</p>
+                      <p className="text-gray-600">onyangobony@gmail.com</p>
                     </div>
                   </div>
                   
@@ -59,7 +48,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-medium text-secondary mb-1">Location</h3>
-                      <p className="text-gray-600">123 Design Street, Creative City, CD 12345</p>
+                      <p className="text-gray-600">Nairobi, Kenya</p>
                     </div>
                   </div>
                 </div>
@@ -84,7 +73,6 @@ const Contact = () => {
               </div>
             </div>
             
-            {/* Right Column - Contact Form */}
             <div className="lg:col-span-3">
               <div className="bg-white shadow-lg rounded-lg overflow-hidden">
                 <h2 className="text-2xl font-bold text-secondary p-6 border-b">
@@ -107,7 +95,7 @@ const Contact = () => {
               Find <span className="text-primary">Me</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Located in the heart of Creative City
+              Located in Nairobi, Kenya
             </p>
           </div>
           <div className="h-96 rounded-lg overflow-hidden shadow-lg">

@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Download, Calendar, User, Award, Briefcase } from "lucide-react";
@@ -27,12 +26,6 @@ const About = () => {
   ];
 
   const education = [
-    {
-      institution: "Design University",
-      degree: "Master's in Digital Design",
-      period: "2014 - 2016",
-      description: "Specialized in UX/UI design with focus on digital interfaces and user experience research."
-    },
     {
       institution: "Tech College",
       degree: "Bachelor's in Computer Science",
@@ -74,7 +67,7 @@ const About = () => {
                   />
                 </div>
                 <div className="p-6">
-                  <h2 className="text-2xl font-bold text-secondary">Jane Designer</h2>
+                  <h2 className="text-2xl font-bold text-secondary">Bony Onyango</h2>
                   <p className="text-primary font-medium">Web Designer & Developer</p>
                   
                   <div className="mt-6 space-y-4">
@@ -114,7 +107,7 @@ const About = () => {
               {/* Bio */}
               <div className="mb-12">
                 <h2 className="text-3xl font-bold text-secondary mb-6">
-                  Hello! I'm <span className="text-primary">Jane Designer</span>
+                  Hello! I'm <span className="text-primary">Bony Onyango</span>
                 </h2>
                 <p className="text-gray-700 mb-4 text-lg">
                   I'm a passionate web designer and developer with over 7 years of experience 
